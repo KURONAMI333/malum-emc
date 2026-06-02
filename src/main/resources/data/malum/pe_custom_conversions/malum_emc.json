@@ -1,0 +1,4316 @@
+{
+  "replace": false,
+  "comment": "Malum EMC integration for ProjectE (KURONAMI). Keystone spirits/ores/trees seeded; spirit_infusion/focusing/runeworking/void_favor recipes transcribed (spirit cost counted). Durable gear / jars / curios have no EMC.",
+  "values": {
+    "before": [
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "malum:aerial_spirit"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "malum:aqueous_spirit"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 64,
+        "id": "malum:earthen_spirit"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 96,
+        "id": "malum:arcane_spirit"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 96,
+        "id": "malum:infernal_spirit"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 96,
+        "id": "malum:umbral_spirit"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 128,
+        "id": "malum:sacred_spirit"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 128,
+        "id": "malum:wicked_spirit"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 160,
+        "id": "malum:eldritch_spirit"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 128,
+        "id": "malum:raw_soulstone"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 256,
+        "id": "malum:cthonic_gold"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 512,
+        "id": "malum:raw_brilliance"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32,
+        "id": "malum:runewood_log"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32,
+        "id": "malum:soulwood_log"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1,
+        "id": "malum:runewood_leaves"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 1,
+        "id": "malum:soulwood_leaves"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 32,
+        "id": "malum:soulwood_sapling"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 4,
+        "id": "malum:tainted_rock"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 16,
+        "id": "malum:blighted_gunk"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 8,
+        "id": "malum:clinging_blight"
+      }
+    ]
+  },
+  "groups": {
+    "malum_recipes": {
+      "comment": "Transcribed Malum custom recipes for EMC derivation.",
+      "conversions": [
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_ailment_cleansing"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_burning_fervor"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_culling"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_dexterity"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_fiery_embrace"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_flowing_grasp"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_good_tides"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_heresy"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_howling_gale"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_igneous_solace"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_indomitability"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_oaken_might"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_protection"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_radial_empowerment"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_reinforcement"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_scorching"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_sky_tether"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_spell_mastery"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_stone_ward"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_twinned_duration"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_unnatural_stamina"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_vitality"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rune_of_volatile_distortion"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:blazing_quartz"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:aluminum_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:aluminum_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:cobalt_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:cobalt_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:copper_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:copper_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:gold_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:gold_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:iron_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:iron_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:lead_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:lead_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:nickel_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:nickel_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:osmium_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:osmium_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:silver_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:silver_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tin_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:tin_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:uranium_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:uranium_node"
+          }
+        },
+        {
+          "count": 3,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:zinc_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:zinc_node"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:zephyr_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:wind_nucleus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:astral_weave",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:accelerating_inlay"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:glass_blocks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:aerial_spirited_glass"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:terracotta",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:aerial_varnished_terracotta"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:clay_ball",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:alchemical_calx"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hex_ash",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:alchemical_impetus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/aluminum",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:aluminum_impetus"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:glass_blocks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:aqueous_spirited_glass"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:terracotta",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:aqueous_varnished_terracotta"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_obelisk"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hex_ash",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:arcana_pylon"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "minecraft:coals",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:arcane_charcoal"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:glass_blocks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:arcane_spirited_glass"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:terracotta",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:arcane_varnished_terracotta"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/copper",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:redstone_block"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:artificers_claw"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:belt_of_the_magebane"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:fused_consciousness"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:void_salts",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:mnemonic_fragment",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 64
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:belt_of_the_limitless"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:gilded_belt"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:twisted_rock",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soul_stained_steel_plating",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:belt_of_the_magebane"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:gilded_belt"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:raw_gold",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:raw_iron",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:raw_copper",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:belt_of_the_prospector"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:gilded_belt"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:bone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:grim_talc",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:rotting_essence",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:belt_of_the_starved"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:blazing_quartz",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:blazing_diode"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:raw_brilliance",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:brilliant_obelisk"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:lamplighters_tongs"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/iron",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:malignant_lead"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:catalyst_lobber"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:blazing_quartz",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:prismarine_crystals",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:caustic_catalyst"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/cobalt",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:cobalt_impetus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:anomalous_design"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:complete_design"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:honey_bottle"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:rotting_essence"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:concentrated_gluttony"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:copper_ingot",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:copper_impetus"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:glass_blocks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:earthen_spirited_glass"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:terracotta",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:earthen_varnished_terracotta"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:soul_stained_steel_scythe"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:malignant_pewter_ingot",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:edge_of_deliverance"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:glass_blocks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:eldritch_spirited_glass"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:terracotta",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:eldritch_varnished_terracotta"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:mnemonic_hex_staff"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:malignant_pewter_ingot",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:void_salts",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:erosion_scepter"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/iron",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hex_ash",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:esoteric_spool"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:glowstone_dust",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:blazing_quartz"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:ether"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runic_brooch"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gems/diamond",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:astral_weave",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:glass_brooch"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:elaborate_brooch"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:rotting_essence",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:grim_talc",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:gluttonous_brooch"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:gold_ingot",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:gold_impetus"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:copper_block"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:redstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:wind_charge",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "tag": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:gust_igniter"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:gold_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gems/quartz",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:hallowed_gold_ingot"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:gunpowder"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:hex_ash"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:living_flesh",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:nether_wart",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:rotting_essence",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:imitation_flesh"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hex_ash",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:warp_flux",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:imitation_heart"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hex_ash",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:impurity_stabilizer"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:glass_blocks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:infernal_spirited_glass"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:terracotta",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:infernal_varnished_terracotta"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gems/emerald",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:intricate_assembly"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:ether"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:prismarine_crystals"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_charcoal"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:iridescent_ether"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:iron_impetus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/iron",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:lamplighters_tongs"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/lead",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:lead_impetus"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:rotten_flesh",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:living_flesh"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/iron",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:malignant_lead"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:netherite_scrap",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:malignant_pewter_ingot"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:living_flesh",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:mending_diffuser"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "malum:arcane_elegy_component"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:music_disc_arcane_elegy"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:ornate_necklace"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/iron",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:phantom_membrane",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:astral_weave",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:diamond",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:necklace_of_blissful_harmony"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:necklace_of_the_narrow_edge"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:malignant_lead"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:necklace_of_the_hidden_blade"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:ornate_necklace"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:warp_flux",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:ender_eye"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 24
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:necklace_of_the_mystic_mirror"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:ornate_necklace"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:storage_blocks/iron"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/iron",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:necklace_of_the_narrow_edge"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:necklace_of_the_mystic_mirror"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:malignant_lead"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:necklace_of_the_watcher"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/nickel",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:nickel_impetus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/osmium",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:osmium_impetus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:ether"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hex_ash",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:warp_flux",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:obsidians/crying",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:paracausal_flame"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gems/prismarine",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:prismatic_focus_lens"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwoven_pouch"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:rotting_essence",
+              "amount": 12
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:grim_talc",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:ravenous_pouch"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock_item_pedestal"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:twisted_rock",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:repair_pylon"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:astral_weave",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_brilliance",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:resonance_tuner"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hex_ash",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "tag": "malum:tainted_rock_blocks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rite_anchor"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soul_stained_steel_plating",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "tag": "malum:twisted_rock_blocks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:rite_unweaver"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hallowed_gold_ingot",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:runewood_obelisk"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_item_pedestal"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "malum:runewood_planks",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwoven_silk",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hallowed_gold_ingot",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:runic_workbench"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:glass_blocks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:sacred_spirited_glass"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:terracotta",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:sacred_varnished_terracotta"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soul_stained_steel_plating",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:shielding_apparatus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/silver",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:silver_impetus"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "minecraft:wool",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:strings",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 3
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 3
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:soulwoven_silk"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:leather_helmet"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwoven_silk",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:leathers",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:soul_hunter_cloak"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:leather_chestplate"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwoven_silk",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:leathers",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:soul_hunter_robe"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 3
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:soul_stained_steel_ingot"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:twisted_rock_item_pedestal"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:ether"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:twisted_rock",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:spirit_catalyzer"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:furnace"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:hex_ash",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:tainted_rock",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:twisted_rock",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:spirit_crucible"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:honey_bottle"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:rotting_essence"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 3
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:splash_of_gluttony"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:concentrated_gluttony"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:splash_of_gluttony"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:fused_consciousness"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:null_slate",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:stellar_mechanism"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:warp_flux",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:suspicious_device"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:living_flesh",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:sympathy_drive"
+          }
+        },
+        {
+          "count": 16,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "minecraft:stone_tool_materials",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:sacred_spirit"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:tainted_rock"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/tin",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:tin_impetus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/iron",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:tuning_fork"
+          }
+        },
+        {
+          "count": 16,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "minecraft:stone_tool_materials",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:twisted_rock"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:soul_stained_steel_sword"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:twisted_rock",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:soulwood_planks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:paracausal_flame"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:tyrving"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:mnemonic_hex_staff"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:fused_consciousness"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:auric_embers",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:malignant_pewter_plating",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:unwinding_chaos"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/uranium",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:uranium_impetus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:warp_flux",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 4
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:warping_engine"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:copper_block"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:redstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:ether"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:wavebanker"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:copper_block"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:redstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:ether"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:wavebreaker"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:copper_block"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:redstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:ether"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:wavecharger"
+          }
+        },
+        {
+          "count": 2,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:copper_block"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:redstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:ether"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:wavemaker"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:soul_stained_steel_axe"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:malignant_pewter_ingot",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 32
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:eldritch_spirit",
+              "amount": 32
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:weight_of_worlds"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:glass_blocks",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:iron_ingot"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:wicked_spirited_glass"
+          }
+        },
+        {
+          "count": 8,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:terracotta",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_calx"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wicked_spirit",
+              "amount": 2
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:wicked_varnished_terracotta"
+          }
+        },
+        {
+          "count": 4,
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:copper_block"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:redstone",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wind_nucleus",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "tag": "malum:runewood_planks",
+              "amount": 2
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:wind_tunnel"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:wind_charge",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:iron_node",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:wind_nucleus",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "minecraft:heavy_core"
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aerial_spirit",
+              "amount": 16
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:arcane_spirit",
+              "amount": 16
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:zephyr_impetus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:alchemical_impetus"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:gunpowders",
+              "amount": 4
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            },
+            {
+              "type": "projecte:item",
+              "tag": "c:ingots/zinc",
+              "amount": 6
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:earthen_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:infernal_spirit",
+              "amount": 8
+            },
+            {
+              "type": "projecte:item",
+              "id": "malum:aqueous_spirit",
+              "amount": 8
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:zinc_impetus"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "c:storage_blocks/iron"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:anomalous_design"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:blaze_powder"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:auric_embers"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:encyclopedia_arcana"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:encyclopedia_esoterica"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:complete_design"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:fused_consciousness"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:cthonic_gold"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:malignant_lead"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:music_disc_arcane_elegy"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:music_disc_aesthetica"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:refined_soulstone"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:null_slate"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "tag": "malum:void_soulstone_material"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:raw_soulstone"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:the_device"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:the_vessel"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "minecraft:black_wool"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:tophat"
+          }
+        },
+        {
+          "ingredients": [
+            {
+              "type": "projecte:item",
+              "id": "malum:hex_ash"
+            }
+          ],
+          "output": {
+            "type": "projecte:item",
+            "id": "malum:void_salts"
+          }
+        }
+      ]
+    }
+  }
+}

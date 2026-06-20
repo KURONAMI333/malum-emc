@@ -1,0 +1,1048 @@
+{
+  "comment": "Malum EMC integration for ProjectE (KURONAMI). Keystone spirits/ores/trees seeded; spirit_infusion/focusing/runeworking/favor_of_the_void recipes transcribed (spirit cost counted). Durable gear / jars / curios have no EMC.",
+  "values": {
+    "before": {
+      "malum:aerial_spirit": 64,
+      "malum:aqueous_spirit": 64,
+      "malum:earthen_spirit": 64,
+      "malum:arcane_spirit": 96,
+      "malum:infernal_spirit": 96,
+      "malum:umbral_spirit": 96,
+      "malum:sacred_spirit": 128,
+      "malum:wicked_spirit": 128,
+      "malum:eldritch_spirit": 160,
+      "malum:raw_soulstone": 128,
+      "malum:cthonic_gold": 256,
+      "malum:chunk_of_brilliance": 512,
+      "malum:runewood_log": 32,
+      "malum:soulwood_log": 32,
+      "malum:runewood_leaves": 1,
+      "malum:soulwood_leaves": 1,
+      "malum:soulwood_growth": 32,
+      "malum:tainted_rock": 4,
+      "malum:blighted_gunk": 16,
+      "malum:clinging_blight": 8
+    }
+  },
+  "groups": {
+    "malum_recipes": {
+      "comment": "Transcribed Malum custom recipes for EMC derivation.",
+      "conversions": [
+        {
+          "count": 3,
+          "ingredients": {
+            "malum:copper_impetus": 1,
+            "malum:earthen_spirit": 2,
+            "malum:infernal_spirit": 2
+          },
+          "output": "malum:copper_node"
+        },
+        {
+          "count": 3,
+          "ingredients": {
+            "malum:gold_impetus": 1,
+            "malum:earthen_spirit": 2,
+            "malum:infernal_spirit": 2
+          },
+          "output": "malum:gold_node"
+        },
+        {
+          "count": 3,
+          "ingredients": {
+            "malum:iron_impetus": 1,
+            "malum:earthen_spirit": 2,
+            "malum:infernal_spirit": 2
+          },
+          "output": "malum:iron_node"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_tablet": 1,
+            "malum:aqueous_spirit": 16
+          },
+          "output": "malum:rune_of_aliment_cleansing"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_tablet": 1,
+            "malum:wicked_spirit": 16
+          },
+          "output": "malum:rune_of_culling"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_tablet": 1,
+            "malum:aerial_spirit": 16
+          },
+          "output": "malum:rune_of_dexterity"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_tablet": 1,
+            "malum:infernal_spirit": 16
+          },
+          "output": "malum:rune_of_fervor"
+        },
+        {
+          "ingredients": {
+            "malum:runewood_tablet": 1,
+            "malum:infernal_spirit": 32
+          },
+          "output": "malum:rune_of_haste"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_tablet": 1,
+            "malum:sacred_spirit": 16
+          },
+          "output": "malum:rune_of_idle_restoration"
+        },
+        {
+          "ingredients": {
+            "malum:void_tablet": 1,
+            "malum:infernal_spirit": 16
+          },
+          "output": "malum:rune_of_igneous_solace"
+        },
+        {
+          "ingredients": {
+            "malum:runewood_tablet": 1,
+            "malum:aqueous_spirit": 32
+          },
+          "output": "malum:rune_of_loyalty"
+        },
+        {
+          "ingredients": {
+            "malum:runewood_tablet": 1,
+            "malum:aerial_spirit": 32
+          },
+          "output": "malum:rune_of_motion"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_tablet": 1,
+            "malum:earthen_spirit": 16
+          },
+          "output": "malum:rune_of_reactive_shielding"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_tablet": 1,
+            "malum:arcane_spirit": 16
+          },
+          "output": "malum:rune_of_reinforcement"
+        },
+        {
+          "ingredients": {
+            "malum:void_tablet": 1,
+            "malum:wicked_spirit": 16
+          },
+          "output": "malum:rune_of_sacrificial_empowerment"
+        },
+        {
+          "ingredients": {
+            "malum:void_tablet": 1,
+            "malum:arcane_spirit": 16
+          },
+          "output": "malum:rune_of_spell_mastery"
+        },
+        {
+          "ingredients": {
+            "malum:soulwood_tablet": 1,
+            "malum:aerial_spirit": 32
+          },
+          "output": "malum:rune_of_the_aether"
+        },
+        {
+          "ingredients": {
+            "malum:soulwood_tablet": 1,
+            "malum:earthen_spirit": 32
+          },
+          "output": "malum:rune_of_the_arena"
+        },
+        {
+          "ingredients": {
+            "malum:soulwood_tablet": 1,
+            "malum:infernal_spirit": 32
+          },
+          "output": "malum:rune_of_the_hells"
+        },
+        {
+          "ingredients": {
+            "malum:void_tablet": 1,
+            "malum:eldritch_spirit": 16
+          },
+          "output": "malum:rune_of_the_heretic"
+        },
+        {
+          "ingredients": {
+            "malum:soulwood_tablet": 1,
+            "malum:aqueous_spirit": 32
+          },
+          "output": "malum:rune_of_the_seas"
+        },
+        {
+          "ingredients": {
+            "malum:void_tablet": 1,
+            "malum:earthen_spirit": 16
+          },
+          "output": "malum:rune_of_toughness"
+        },
+        {
+          "ingredients": {
+            "malum:void_tablet": 1,
+            "malum:aqueous_spirit": 16
+          },
+          "output": "malum:rune_of_twinned_duration"
+        },
+        {
+          "ingredients": {
+            "malum:void_tablet": 1,
+            "malum:aerial_spirit": 16
+          },
+          "output": "malum:rune_of_unnatural_stamina"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_tablet": 1,
+            "malum:eldritch_spirit": 16
+          },
+          "output": "malum:rune_of_volatile_distortion"
+        },
+        {
+          "ingredients": {
+            "malum:runewood_tablet": 1,
+            "malum:earthen_spirit": 32
+          },
+          "output": "malum:rune_of_warding"
+        },
+        {
+          "count": 4,
+          "ingredients": {
+            "malum:alchemical_impetus": 1,
+            "malum:infernal_spirit": 2,
+            "malum:arcane_spirit": 2
+          },
+          "output": "malum:blazing_quartz"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 4,
+            "malum:astral_weave": 2,
+            "malum:processed_soulstone": 2,
+            "malum:aerial_spirit": 8,
+            "malum:arcane_spirit": 4
+          },
+          "output": "malum:accelerating_inlay"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#forge:glass": 16,
+            "minecraft:iron_ingot": 1,
+            "malum:aerial_spirit": 2
+          },
+          "output": "malum:aerial_spirited_glass"
+        },
+        {
+          "count": 4,
+          "ingredients": {
+            "minecraft:clay_ball": 4,
+            "malum:arcane_spirit": 2,
+            "malum:earthen_spirit": 2,
+            "malum:aqueous_spirit": 2
+          },
+          "output": "malum:alchemical_calx"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 8,
+            "malum:processed_soulstone": 3,
+            "malum:hex_ash": 1,
+            "malum:arcane_spirit": 4,
+            "malum:earthen_spirit": 4
+          },
+          "output": "malum:alchemical_impetus"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#forge:glass": 16,
+            "minecraft:iron_ingot": 1,
+            "malum:aqueous_spirit": 2
+          },
+          "output": "malum:aqueous_spirited_glass"
+        },
+        {
+          "count": 4,
+          "ingredients": {
+            "#minecraft:coals": 4,
+            "malum:arcane_spirit": 1,
+            "malum:infernal_spirit": 2
+          },
+          "output": "malum:arcane_charcoal"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#forge:glass": 16,
+            "minecraft:iron_ingot": 1,
+            "malum:arcane_spirit": 2
+          },
+          "output": "malum:arcane_spirited_glass"
+        },
+        {
+          "ingredients": {
+            "malum:belt_of_the_magebane": 1,
+            "malum:fused_consciousness": 1,
+            "malum:void_salts": 16,
+            "malum:null_slate": 8,
+            "malum:mnemonic_fragment": 4,
+            "malum:arcane_spirit": 64,
+            "malum:wicked_spirit": 32,
+            "malum:eldritch_spirit": 16
+          },
+          "output": "malum:belt_of_the_limitless"
+        },
+        {
+          "ingredients": {
+            "malum:gilded_belt": 1,
+            "malum:twisted_rock": 16,
+            "malum:soulwood_planks": 8,
+            "malum:soul_stained_steel_plating": 6,
+            "malum:wicked_spirit": 32,
+            "malum:arcane_spirit": 16,
+            "malum:eldritch_spirit": 8
+          },
+          "output": "malum:belt_of_the_magebane"
+        },
+        {
+          "ingredients": {
+            "malum:gilded_belt": 1,
+            "malum:cthonic_gold": 1,
+            "minecraft:raw_gold": 4,
+            "minecraft:raw_iron": 4,
+            "minecraft:raw_copper": 4,
+            "malum:earthen_spirit": 32,
+            "malum:infernal_spirit": 32,
+            "malum:arcane_spirit": 16
+          },
+          "output": "malum:belt_of_the_prospector"
+        },
+        {
+          "ingredients": {
+            "malum:gilded_belt": 1,
+            "minecraft:bone": 4,
+            "malum:grim_talc": 8,
+            "malum:rotting_essence": 4,
+            "malum:processed_soulstone": 4,
+            "malum:wicked_spirit": 32,
+            "malum:aqueous_spirit": 16,
+            "malum:arcane_spirit": 16
+          },
+          "output": "malum:belt_of_the_starved"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 4,
+            "malum:blazing_quartz": 2,
+            "malum:processed_soulstone": 2,
+            "malum:infernal_spirit": 8,
+            "malum:arcane_spirit": 4
+          },
+          "output": "malum:blazing_diode"
+        },
+        {
+          "ingredients": {
+            "malum:runewood_planks": 2,
+            "malum:cluster_of_brilliance": 2,
+            "malum:hex_ash": 1,
+            "malum:aerial_spirit": 16,
+            "malum:aqueous_spirit": 8
+          },
+          "output": "malum:brilliant_obelisk"
+        },
+        {
+          "ingredients": {
+            "malum:lamplighters_tongs": 1,
+            "#forge:ingots/iron": 4,
+            "malum:soulwood_planks": 2,
+            "malum:malignant_lead": 1,
+            "malum:aqueous_spirit": 32,
+            "malum:infernal_spirit": 32,
+            "malum:eldritch_spirit": 8
+          },
+          "output": "malum:catalyst_lobber"
+        },
+        {
+          "ingredients": {
+            "malum:anomalous_design": 1,
+            "malum:sacred_spirit": 4,
+            "malum:wicked_spirit": 4,
+            "malum:arcane_spirit": 4,
+            "malum:eldritch_spirit": 4,
+            "malum:aerial_spirit": 4,
+            "malum:aqueous_spirit": 4,
+            "malum:earthen_spirit": 4,
+            "malum:infernal_spirit": 4
+          },
+          "output": "malum:complete_design"
+        },
+        {
+          "count": 2,
+          "ingredients": {
+            "minecraft:honey_bottle": 1,
+            "malum:rotting_essence": 1,
+            "malum:aqueous_spirit": 2,
+            "malum:sacred_spirit": 2,
+            "malum:wicked_spirit": 2
+          },
+          "output": "malum:concentrated_gluttony"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_impetus": 1,
+            "#forge:gunpowder": 4,
+            "malum:cthonic_gold": 1,
+            "minecraft:copper_ingot": 6,
+            "malum:earthen_spirit": 8,
+            "malum:infernal_spirit": 8
+          },
+          "output": "malum:copper_impetus"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#forge:glass": 16,
+            "minecraft:iron_ingot": 1,
+            "malum:earthen_spirit": 2
+          },
+          "output": "malum:earthen_spirited_glass"
+        },
+        {
+          "ingredients": {
+            "malum:soul_stained_steel_scythe": 1,
+            "malum:malignant_pewter_ingot": 2,
+            "malum:earthen_spirit": 32,
+            "malum:wicked_spirit": 32,
+            "malum:eldritch_spirit": 16
+          },
+          "output": "malum:edge_of_deliverance"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#forge:glass": 16,
+            "minecraft:iron_ingot": 1,
+            "malum:eldritch_spirit": 2
+          },
+          "output": "malum:eldritch_spirited_glass"
+        },
+        {
+          "ingredients": {
+            "malum:mnemonic_hex_staff": 1,
+            "malum:malignant_pewter_ingot": 2,
+            "malum:void_salts": 8,
+            "malum:aqueous_spirit": 32,
+            "malum:wicked_spirit": 32,
+            "malum:eldritch_spirit": 16
+          },
+          "output": "malum:erosion_scepter"
+        },
+        {
+          "count": 4,
+          "ingredients": {
+            "#forge:ingots/iron": 4,
+            "malum:hex_ash": 2,
+            "malum:arcane_spirit": 4
+          },
+          "output": "malum:esoteric_spool"
+        },
+        {
+          "count": 2,
+          "ingredients": {
+            "minecraft:glowstone_dust": 4,
+            "malum:blazing_quartz": 1,
+            "minecraft:blaze_powder": 1,
+            "malum:infernal_spirit": 2,
+            "malum:arcane_spirit": 1
+          },
+          "output": "malum:ether"
+        },
+        {
+          "ingredients": {
+            "malum:runic_brooch": 1,
+            "#forge:gems/diamond": 8,
+            "malum:astral_weave": 4,
+            "malum:aqueous_spirit": 32
+          },
+          "output": "malum:glass_brooch"
+        },
+        {
+          "ingredients": {
+            "malum:elaborate_brooch": 1,
+            "malum:rotting_essence": 8,
+            "malum:grim_talc": 4,
+            "malum:wicked_spirit": 32
+          },
+          "output": "malum:gluttonous_brooch"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_impetus": 1,
+            "#forge:gunpowder": 4,
+            "malum:cthonic_gold": 1,
+            "minecraft:gold_ingot": 6,
+            "malum:earthen_spirit": 8,
+            "malum:infernal_spirit": 8
+          },
+          "output": "malum:gold_impetus"
+        },
+        {
+          "ingredients": {
+            "minecraft:gold_ingot": 1,
+            "#forge:gems/quartz": 4,
+            "malum:sacred_spirit": 2,
+            "malum:arcane_spirit": 1
+          },
+          "output": "malum:hallowed_gold_ingot"
+        },
+        {
+          "ingredients": {
+            "minecraft:gunpowder": 1,
+            "malum:arcane_spirit": 1
+          },
+          "output": "malum:hex_ash"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 4,
+            "malum:hex_ash": 2,
+            "malum:processed_soulstone": 2,
+            "malum:wicked_spirit": 8,
+            "malum:arcane_spirit": 4
+          },
+          "output": "malum:impurity_stabilizer"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#forge:glass": 16,
+            "minecraft:iron_ingot": 1,
+            "malum:infernal_spirit": 2
+          },
+          "output": "malum:infernal_spirited_glass"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 4,
+            "#forge:gems/emerald": 2,
+            "malum:processed_soulstone": 2,
+            "malum:earthen_spirit": 8,
+            "malum:arcane_spirit": 4
+          },
+          "output": "malum:intricate_assembly"
+        },
+        {
+          "ingredients": {
+            "malum:ether": 1,
+            "minecraft:prismarine_crystals": 1,
+            "malum:arcane_charcoal": 1,
+            "malum:aqueous_spirit": 2
+          },
+          "output": "malum:iridescent_ether"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_impetus": 1,
+            "#forge:gunpowder": 4,
+            "malum:cthonic_gold": 1,
+            "minecraft:iron_ingot": 6,
+            "malum:earthen_spirit": 8,
+            "malum:infernal_spirit": 8
+          },
+          "output": "malum:iron_impetus"
+        },
+        {
+          "ingredients": {
+            "#forge:ingots/iron": 2,
+            "malum:runewood_planks": 2,
+            "malum:processed_soulstone": 1,
+            "malum:arcane_spirit": 8,
+            "malum:infernal_spirit": 8
+          },
+          "output": "malum:lamplighters_tongs"
+        },
+        {
+          "count": 2,
+          "ingredients": {
+            "minecraft:rotten_flesh": 4,
+            "malum:sacred_spirit": 2,
+            "malum:wicked_spirit": 2
+          },
+          "output": "malum:living_flesh"
+        },
+        {
+          "ingredients": {
+            "#forge:ingots/iron": 4,
+            "malum:malignant_lead": 1,
+            "malum:null_slate": 8,
+            "minecraft:netherite_scrap": 3,
+            "malum:earthen_spirit": 16,
+            "malum:eldritch_spirit": 4
+          },
+          "output": "malum:malignant_pewter_ingot"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 4,
+            "malum:living_flesh": 2,
+            "malum:processed_soulstone": 2,
+            "malum:sacred_spirit": 8,
+            "malum:arcane_spirit": 4
+          },
+          "output": "malum:mending_diffuser"
+        },
+        {
+          "ingredients": {
+            "#malum:arcane_elegy_component": 1,
+            "malum:aerial_spirit": 4,
+            "malum:aqueous_spirit": 4,
+            "malum:earthen_spirit": 4,
+            "malum:infernal_spirit": 4
+          },
+          "output": "malum:music_disc_arcane_elegy"
+        },
+        {
+          "ingredients": {
+            "malum:ornate_necklace": 1,
+            "#forge:ingots/iron": 6,
+            "minecraft:phantom_membrane": 4,
+            "malum:astral_weave": 2,
+            "minecraft:diamond": 2,
+            "malum:aerial_spirit": 16,
+            "malum:aqueous_spirit": 16,
+            "malum:sacred_spirit": 16,
+            "malum:eldritch_spirit": 2
+          },
+          "output": "malum:necklace_of_blissful_harmony"
+        },
+        {
+          "ingredients": {
+            "malum:necklace_of_the_narrow_edge": 1,
+            "malum:null_slate": 16,
+            "malum:malignant_lead": 1,
+            "malum:wicked_spirit": 32,
+            "malum:arcane_spirit": 32,
+            "malum:earthen_spirit": 32,
+            "malum:eldritch_spirit": 16
+          },
+          "output": "malum:necklace_of_the_hidden_blade"
+        },
+        {
+          "ingredients": {
+            "malum:ornate_necklace": 1,
+            "malum:runewood_planks": 8,
+            "malum:spectral_optic": 1,
+            "minecraft:ender_eye": 1,
+            "malum:sacred_spirit": 24
+          },
+          "output": "malum:necklace_of_the_mystic_mirror"
+        },
+        {
+          "ingredients": {
+            "malum:ornate_necklace": 1,
+            "#forge:storage_blocks/iron": 1,
+            "#forge:ingots/iron": 2,
+            "malum:wicked_spirit": 16,
+            "malum:earthen_spirit": 16,
+            "malum:eldritch_spirit": 2
+          },
+          "output": "malum:necklace_of_the_narrow_edge"
+        },
+        {
+          "ingredients": {
+            "malum:necklace_of_the_mystic_mirror": 1,
+            "malum:null_slate": 16,
+            "malum:malignant_lead": 1,
+            "malum:wicked_spirit": 32,
+            "malum:arcane_spirit": 32,
+            "malum:aqueous_spirit": 32,
+            "malum:eldritch_spirit": 16
+          },
+          "output": "malum:necklace_of_the_watcher"
+        },
+        {
+          "ingredients": {
+            "malum:ornate_necklace": 1,
+            "malum:gold_node": 6,
+            "minecraft:heart_of_the_sea": 1,
+            "minecraft:nautilus_shell": 2,
+            "malum:aqueous_spirit": 16,
+            "malum:sacred_spirit": 16,
+            "malum:eldritch_spirit": 2
+          },
+          "output": "malum:necklace_of_tidal_affinity"
+        },
+        {
+          "count": 2,
+          "ingredients": {
+            "minecraft:hay_block": 1,
+            "minecraft:wheat": 2,
+            "malum:hex_ash": 1,
+            "malum:wicked_spirit": 4,
+            "malum:earthen_spirit": 4
+          },
+          "output": "malum:poppet"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 4,
+            "#forge:gems/prismarine": 2,
+            "malum:processed_soulstone": 2,
+            "malum:aqueous_spirit": 8,
+            "malum:arcane_spirit": 4
+          },
+          "output": "malum:prismatic_focus_lens"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_item_pedestal": 1,
+            "malum:tainted_rock": 8,
+            "malum:twisted_rock": 8,
+            "malum:sacred_spirit": 16,
+            "malum:aerial_spirit": 16,
+            "malum:aqueous_spirit": 16,
+            "malum:infernal_spirit": 16
+          },
+          "output": "malum:repair_pylon"
+        },
+        {
+          "ingredients": {
+            "malum:runewood_planks": 2,
+            "malum:hallowed_gold_ingot": 2,
+            "malum:hex_ash": 1,
+            "malum:aerial_spirit": 16,
+            "malum:sacred_spirit": 8
+          },
+          "output": "malum:runewood_obelisk"
+        },
+        {
+          "count": 2,
+          "ingredients": {
+            "malum:runewood_log": 2,
+            "malum:processed_soulstone": 8,
+            "malum:runewood_planks": 4,
+            "malum:hex_ash": 2,
+            "malum:aerial_spirit": 8,
+            "malum:aqueous_spirit": 8,
+            "malum:earthen_spirit": 8,
+            "malum:infernal_spirit": 8,
+            "malum:eldritch_spirit": 2
+          },
+          "output": "malum:runewood_tablet"
+        },
+        {
+          "ingredients": {
+            "malum:runewood_item_pedestal": 1,
+            "malum:runewood_planks": 4,
+            "malum:hallowed_gold_ingot": 2,
+            "malum:aqueous_spirit": 16,
+            "malum:sacred_spirit": 8
+          },
+          "output": "malum:runic_workbench"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#forge:glass": 16,
+            "minecraft:iron_ingot": 1,
+            "malum:sacred_spirit": 2
+          },
+          "output": "malum:sacred_spirited_glass"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 4,
+            "malum:soul_stained_steel_plating": 2,
+            "malum:processed_soulstone": 2,
+            "malum:arcane_spirit": 8
+          },
+          "output": "malum:shielding_apparatus"
+        },
+        {
+          "count": 2,
+          "ingredients": {
+            "malum:soulwood_log": 2,
+            "malum:processed_soulstone": 8,
+            "malum:soulwood_planks": 4,
+            "malum:hex_ash": 2,
+            "malum:aerial_spirit": 8,
+            "malum:aqueous_spirit": 8,
+            "malum:earthen_spirit": 8,
+            "malum:infernal_spirit": 8,
+            "malum:eldritch_spirit": 2
+          },
+          "output": "malum:soulwood_tablet"
+        },
+        {
+          "ingredients": {
+            "minecraft:leather_helmet": 1,
+            "malum:spirit_fabric": 4,
+            "malum:processed_soulstone": 4,
+            "#forge:leather": 2,
+            "malum:aerial_spirit": 8,
+            "malum:earthen_spirit": 8
+          },
+          "output": "malum:soul_hunter_cloak"
+        },
+        {
+          "ingredients": {
+            "minecraft:leather_chestplate": 1,
+            "malum:spirit_fabric": 4,
+            "malum:processed_soulstone": 4,
+            "#forge:leather": 2,
+            "malum:aerial_spirit": 8,
+            "malum:earthen_spirit": 8
+          },
+          "output": "malum:soul_hunter_robe"
+        },
+        {
+          "ingredients": {
+            "minecraft:iron_ingot": 1,
+            "malum:processed_soulstone": 4,
+            "malum:wicked_spirit": 3,
+            "malum:earthen_spirit": 1,
+            "malum:arcane_spirit": 1
+          },
+          "output": "malum:soul_stained_steel_ingot"
+        },
+        {
+          "ingredients": {
+            "malum:twisted_rock_item_pedestal": 1,
+            "malum:tainted_rock": 4,
+            "malum:ether": 1,
+            "malum:twisted_rock": 4,
+            "malum:infernal_spirit": 8,
+            "malum:aerial_spirit": 8
+          },
+          "output": "malum:spirit_catalyzer"
+        },
+        {
+          "ingredients": {
+            "minecraft:furnace": 1,
+            "malum:hex_ash": 2,
+            "malum:tainted_rock": 8,
+            "malum:twisted_rock": 8,
+            "malum:infernal_spirit": 12,
+            "malum:arcane_spirit": 4
+          },
+          "output": "malum:spirit_crucible"
+        },
+        {
+          "count": 4,
+          "ingredients": {
+            "#minecraft:wool": 2,
+            "#forge:string": 2,
+            "malum:hex_ash": 1,
+            "malum:wicked_spirit": 2,
+            "malum:earthen_spirit": 1,
+            "malum:aerial_spirit": 1
+          },
+          "output": "malum:spirit_fabric"
+        },
+        {
+          "count": 2,
+          "ingredients": {
+            "minecraft:honey_bottle": 1,
+            "malum:rotting_essence": 1,
+            "#forge:gunpowder": 1,
+            "malum:aqueous_spirit": 3,
+            "malum:sacred_spirit": 2,
+            "malum:wicked_spirit": 2
+          },
+          "output": "malum:splash_of_gluttony"
+        },
+        {
+          "ingredients": {
+            "malum:concentrated_gluttony": 1,
+            "#forge:gunpowder": 1,
+            "malum:aqueous_spirit": 1
+          },
+          "output": "malum:splash_of_gluttony"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 4,
+            "malum:fused_consciousness": 1,
+            "malum:null_slate": 2,
+            "malum:aerial_spirit": 16,
+            "malum:aqueous_spirit": 16,
+            "malum:earthen_spirit": 16,
+            "malum:infernal_spirit": 16,
+            "malum:eldritch_spirit": 4
+          },
+          "output": "malum:stellar_mechanism"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#minecraft:stone_tool_materials": 16,
+            "malum:sacred_spirit": 1,
+            "malum:arcane_spirit": 1
+          },
+          "output": "malum:tainted_rock"
+        },
+        {
+          "count": 2,
+          "ingredients": {
+            "malum:tainted_rock": 4,
+            "malum:processed_soulstone": 8,
+            "malum:aerial_spirit": 8,
+            "malum:aqueous_spirit": 8,
+            "malum:earthen_spirit": 8,
+            "malum:infernal_spirit": 8,
+            "malum:eldritch_spirit": 2
+          },
+          "output": "malum:tainted_rock_tablet"
+        },
+        {
+          "ingredients": {
+            "#forge:ingots/iron": 2,
+            "malum:runewood_planks": 2,
+            "malum:processed_soulstone": 1,
+            "malum:arcane_spirit": 8,
+            "malum:aqueous_spirit": 8
+          },
+          "output": "malum:tuning_fork"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#minecraft:stone_tool_materials": 16,
+            "malum:wicked_spirit": 1,
+            "malum:arcane_spirit": 1
+          },
+          "output": "malum:twisted_rock"
+        },
+        {
+          "ingredients": {
+            "malum:soul_stained_steel_sword": 1,
+            "malum:twisted_rock": 16,
+            "malum:soulwood_planks": 8,
+            "#forge:obsidian": 4,
+            "malum:hex_ash": 4,
+            "malum:wicked_spirit": 32,
+            "malum:arcane_spirit": 16,
+            "malum:eldritch_spirit": 8
+          },
+          "output": "malum:tyrving"
+        },
+        {
+          "ingredients": {
+            "malum:tainted_rock_tablet": 1,
+            "malum:null_slate": 8,
+            "malum:void_salts": 8,
+            "malum:eldritch_spirit": 4
+          },
+          "output": "malum:void_tablet"
+        },
+        {
+          "ingredients": {
+            "malum:alchemical_calx": 4,
+            "malum:warp_flux": 2,
+            "malum:processed_soulstone": 2,
+            "malum:eldritch_spirit": 2,
+            "malum:arcane_spirit": 4
+          },
+          "output": "malum:warping_engine"
+        },
+        {
+          "ingredients": {
+            "malum:soul_stained_steel_axe": 1,
+            "malum:malignant_pewter_ingot": 2,
+            "malum:earthen_spirit": 32,
+            "malum:wicked_spirit": 32,
+            "malum:eldritch_spirit": 16
+          },
+          "output": "malum:weight_of_worlds"
+        },
+        {
+          "count": 16,
+          "ingredients": {
+            "#forge:glass": 16,
+            "minecraft:iron_ingot": 1,
+            "malum:wicked_spirit": 2
+          },
+          "output": "malum:wicked_spirited_glass"
+        },
+        {
+          "ingredients": {
+            "#forge:storage_blocks/iron": 1
+          },
+          "output": "malum:anomalous_design"
+        },
+        {
+          "ingredients": {
+            "minecraft:blaze_powder": 1
+          },
+          "output": "malum:auric_embers"
+        },
+        {
+          "ingredients": {
+            "malum:encyclopedia_arcana": 1
+          },
+          "output": "malum:encyclopedia_esoterica"
+        },
+        {
+          "ingredients": {
+            "malum:complete_design": 1
+          },
+          "output": "malum:fused_consciousness"
+        },
+        {
+          "ingredients": {
+            "malum:cthonic_gold": 1
+          },
+          "output": "malum:malignant_lead"
+        },
+        {
+          "ingredients": {
+            "malum:music_disc_arcane_elegy": 1
+          },
+          "output": "malum:music_disc_aesthetica"
+        },
+        {
+          "ingredients": {
+            "malum:processed_soulstone": 1
+          },
+          "output": "malum:null_slate"
+        },
+        {
+          "ingredients": {
+            "#forge:raw_materials": 1
+          },
+          "output": "malum:raw_soulstone"
+        },
+        {
+          "ingredients": {
+            "malum:the_device": 1
+          },
+          "output": "malum:the_vessel"
+        },
+        {
+          "ingredients": {
+            "minecraft:black_wool": 1
+          },
+          "output": "malum:tophat"
+        },
+        {
+          "ingredients": {
+            "malum:hex_ash": 1
+          },
+          "output": "malum:void_salts"
+        }
+      ]
+    }
+  }
+}

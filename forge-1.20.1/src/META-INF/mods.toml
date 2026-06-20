@@ -1,0 +1,43 @@
+modLoader="lowcodefml"
+loaderVersion="[1,)"
+license="MIT"
+issueTrackerURL="https://github.com/KURONAMI333/malum-emc/issues"
+
+[[mods]]
+modId="malum_emc"
+version="0.1.0"
+displayName="Malum ProjectE EMC"
+authors="KURONAMI"
+logoFile="malum_emc.png"
+displayURL="https://github.com/KURONAMI333/malum-emc"
+description='''
+Adds ProjectE EMC values to Malum. Seeds the keystone spirits, ores and trees, and transcribes Malum's spirit infusion / focusing / runeworking / void favor recipes so their outputs derive — spirit cost included. Durable gear (staves, scythes, armor), spirit jars and curios intentionally have no EMC. Requires ProjectE and Malum.
+'''
+
+[[dependencies.malum_emc]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.malum_emc]]
+    modId="forge"
+    mandatory=false
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.malum_emc]]
+    modId="projecte"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.malum_emc]]
+    modId="malum"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"

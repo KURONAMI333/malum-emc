@@ -16,4 +16,4 @@ It adds no items, blocks, or recipes — only EMC data. Values apply on world lo
 
 The end-game Soul Binding recipes (which produce stateful artifacts) and node-smelting tag outputs are intentionally not valued. EMC values are a considered first pass; balance feedback is welcome on the issue tracker.
 
-MIT. Malum is by Sammy Semicolon; ProjectE by sinkillerj & contributors. Independent integration, not affiliated with either. Source and issues: https://github.com/KURONAMI333/malum-emc
+All Rights Reserved (free to put in any modpack, no permission or credit needed). Malum is by Sammy Semicolon; ProjectE by sinkillerj & contributors. Independent integration, not affiliated with either. Source and issues: https://github.com/KURONAMI333/malum-emc

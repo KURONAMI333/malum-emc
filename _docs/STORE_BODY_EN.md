@@ -1,5 +1,3 @@
-# ProjectE: EMC for Malum
-
 Play [Malum](https://www.curseforge.com/minecraft/mc-mods/malum) with [ProjectE](https://modrinth.com/mod/projecte) and none of its spirits or arcane materials have an EMC value. This data-only add-on fixes that.
 
 - **Seeds the keystone resources** — the nine harvested Spirits, the Soulstone / Cthonic Gold / Brilliance ores, and the Runewood / Soulwood trees.
@@ -12,8 +10,9 @@ It adds no items, blocks, or recipes — only EMC data. Values apply on world lo
 
 - [ProjectE](https://modrinth.com/mod/projecte) — required
 - [Malum](https://www.curseforge.com/minecraft/mc-mods/malum) — required
-- NeoForge 1.21.1
 
 The end-game Soul Binding recipes (which produce stateful artifacts) and node-smelting tag outputs are intentionally not valued. EMC values are a considered first pass; balance feedback is welcome on the issue tracker.
 
-All Rights Reserved (free to put in any modpack, no permission or credit needed). Malum is by Sammy Semicolon; ProjectE by sinkillerj & contributors. Independent integration, not affiliated with either. Source and issues: https://github.com/KURONAMI333/malum-emc
+Bugs and questions: comment on the CurseForge page, or DM @kuronami333 on X.
+
+All Rights Reserved (free to put in any modpack, no permission or credit needed). Malum is by Sammy Semicolon; ProjectE by sinkillerj & contributors. Independent integration, not affiliated with either. Source: https://github.com/KURONAMI333/malum-emc

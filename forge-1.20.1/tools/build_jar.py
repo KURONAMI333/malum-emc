@@ -13,7 +13,7 @@ HERE = os.path.dirname(__file__)
 SRC = os.path.normpath(os.path.join(HERE, "..", "src"))
 BUILD = os.path.normpath(os.path.join(HERE, "..", "build"))
 MOD_ID = "malum_emc"
-VERSION = "0.1.0"
+VERSION = "0.1.2"
 
 
 def main() -> None:

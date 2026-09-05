@@ -50,18 +50,18 @@
       },
       {
         "type": "projecte:item",
-        "emc_value": 128,
-        "id": "malum:raw_soulstone"
+        "emc_value": 64,
+        "id": "malum:refined_soulstone"
+      },
+      {
+        "type": "projecte:item",
+        "emc_value": 2304,
+        "id": "malum:block_of_cthonic_gold"
       },
       {
         "type": "projecte:item",
         "emc_value": 256,
-        "id": "malum:cthonic_gold"
-      },
-      {
-        "type": "projecte:item",
-        "emc_value": 512,
-        "id": "malum:raw_brilliance"
+        "id": "malum:refined_brilliance"
       },
       {
         "type": "projecte:item",
@@ -97,11 +97,6 @@
         "type": "projecte:item",
         "emc_value": 16,
         "id": "malum:blighted_gunk"
-      },
-      {
-        "type": "projecte:item",
-        "emc_value": 8,
-        "id": "malum:clinging_blight"
       }
     ]
   },

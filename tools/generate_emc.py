@@ -50,9 +50,18 @@ BEFORE = {
     "sacred_spirit": 128,
     "wicked_spirit": 128,
     "eldritch_spirit": 160,
-    "raw_soulstone": 128,  # soulstone ore drop
-    "cthonic_gold": 256,  # cthonic gold ore drop
-    "raw_brilliance": 512,  # brilliant stone drop (high)
+    # malum 1.8.2 は raw_soulstone / raw_brilliance / cthonic_gold / cthonic_gold_fragment を
+    # c:raw_materials に直接登録しており、ProjectE の RawMaterialsBlacklistMapper が実行時に
+    # 0 を強制する。値は blacklist に掛からない下流へ、比に応じて換算して移す。
+    #   raw_soulstone 128  -> 精錬 1:2 -> refined_soulstone 64
+    #   raw_brilliance 512 -> 精錬 1:2 -> refined_brilliance 256
+    #   cthonic_gold 256   -> 9個クラフト -> block_of_cthonic_gold 2304
+    # cthonic_gold は下流に精錬形が無く、fragment も同じく blacklist なので、値を持てるのは
+    # 保管ブロックだけ。EMC での入手経路は復活するが、cthonic_gold 自体を材料に取る
+    # spirit_infusion 系の産出物は 0 のまま導出される（部分的な復旧）。MALUM_EMC_DECISIONS.md 参照。
+    "refined_soulstone": 64,  # soulstone ore drop (raw 128 / 2)
+    "block_of_cthonic_gold": 2304,  # cthonic gold ore drop (256 x 9)
+    "refined_brilliance": 256,  # brilliant stone drop, high (raw 512 / 2)
     "runewood_log": 32,
     "soulwood_log": 32,
     "runewood_leaves": 1,
@@ -60,7 +69,9 @@ BEFORE = {
     "soulwood_sapling": 32,
     "tainted_rock": 4,
     "blighted_gunk": 16,
-    "clinging_blight": 8,
+    # clinging_blight は BlockItem を持たない設置専用ブロックで、ProjectE が
+    # 「Registry minecraft:item does not contain element malum:clinging_blight」で
+    # load error を出していた（2026-09-06 実測）。落とし物は blighted_gunk なので上の値で足りる。
 }
 
 INCLUDE_TYPES = {

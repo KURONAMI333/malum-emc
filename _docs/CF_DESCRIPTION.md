@@ -2,7 +2,7 @@
 
 Play [Malum](https://www.curseforge.com/minecraft/mc-mods/malum) with [ProjectE](https://modrinth.com/mod/projecte) and none of its spirits or arcane materials have an EMC value. This data-only add-on fixes that.
 
-- **Seeds the keystone resources** — the nine harvested Spirits, the Soulstone / Cthonic Gold / Brilliance ores, and the Runewood / Soulwood trees.
+- **Seeds the keystone resources** — the nine harvested Spirits, the Soulstone / Cthonic Gold / Brilliance lines, and the Runewood / Soulwood trees.
 - **Transcribes Malum's custom recipes** — Spirit Infusion, Spirit Focusing, Runeworking, Void Favor — as ProjectE conversions, including the spirit cost, so infused materials, runes, and processed items **derive their EMC automatically** instead of being invisible to ProjectE.
 - **Stateful gear carries no EMC by design**: staves, scythes, soul-stained steel tools and armor, Spirit Jars, and curios hold durability or stored spirit/charge state; the degraded "fractured" impetus states are excluded too.
 

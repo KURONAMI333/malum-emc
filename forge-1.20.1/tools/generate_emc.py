@@ -75,7 +75,9 @@ BEFORE = {
     "soulwood_growth": 32,
     "tainted_rock": 4,
     "blighted_gunk": 16,
-    "clinging_blight": 8,
+    # clinging_blight は BlockItem を持たない設置専用ブロックで、ProjectE が load error を出す
+    # （1.21.1 セルで実測。1.6.7 も同じく item.malum.clinging_blight が無い）。
+    # 落とし物は blighted_gunk なので上の値で足りる。
 }
 
 INCLUDE_TYPES = {

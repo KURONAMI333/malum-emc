@@ -16,16 +16,13 @@ adapts to Malum 1.6.x's schema (plural `recipes/`, `favor_of_the_void`, `item` k
 ## Build (no Gradle / JDK)
 
 ```bash
-python tools/generate_emc.py [path/to/malum-1.20.1.jar]   # default: _research/v1201-hosts/malum-1.20.1-1.6.7.jar
-python tools/build_jar.py                                  # -> build/malum_emc-0.1.0-forge-1.20.1.jar
+python tools/generate_emc.py <path-to-malum-1.20.1-jar>
+python tools/build_jar.py
 ```
 
 ## Verify
 
-Load with ProjectE 1.20.1 + Malum (+ lodestonelib + curios) on a Forge 1.20.1 server and
-confirm `mo.pr.PECore` parses `malum:pe_custom_conversions/malum_emc.json` (20 primitives
-+ 109 conversions) with 0 errors. Canon: `kuronami-mods/knowledge/PROJECTE_EMC_NOTES.md`
-→ 1.20.1 Forge 展開.
+Load with ProjectE 1.20.1 + Malum (+ LodestoneLib + Curios) on a Forge 1.20.1 server and
+confirm `mo.pr.PECore` parses `malum:pe_custom_conversions/malum_emc.json` without an error.
 
-Status: v0.1.0 — built (20 primitives, 109 conversions); ProjectE 1.20.1 parse verified
-(0 errors) on a Forge 1.20.1 server.
+For the mod overview and support route, see the [repository README](../README.md).

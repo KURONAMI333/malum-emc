@@ -9,7 +9,7 @@ Excludes: durable gear / NBT-state outputs by id pattern, soul_binding (end-game
 stateful artifacts), node_smelting/blasting (tag outputs), unchained_transmutation
 (vanilla outputs), spirit_repair (durability op).
 
-Usage: python tools/generate_emc.py [path/to/malum.jar]
+Usage: python tools/generate_emc.py path/to/malum.jar
 ProjectE NSS: tags use {type:"projecte:item","tag":...}. See PROJECTE_EMC_NOTES.md.
 """
 
@@ -20,11 +20,12 @@ import glob
 import tempfile
 from collections import OrderedDict
 
-JAR = (
-    os.sys.argv[1]
-    if len(os.sys.argv) > 1
-    else str(__import__('pathlib').Path.home().joinpath('curseforge/minecraft/Instances/2605_nf21_Magi/mods/malum-1.21.1-1.8.2.jar'))
-)
+USAGE = "Usage: python tools/generate_emc.py path/to/malum.jar"
+if len(os.sys.argv) != 2 or os.sys.argv[1] in ("-h", "--help"):
+    print(USAGE)
+    raise SystemExit(0 if len(os.sys.argv) == 2 else 1)
+
+JAR = os.sys.argv[1]
 OUT = os.path.join(
     os.path.dirname(__file__),
     "..",

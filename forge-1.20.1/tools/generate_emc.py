@@ -16,7 +16,7 @@ Malum 1.6.x schema differences handled here vs the 1.21.1 jar:
   - spirit entries carry a bare element name ("aerial") -> malum:aerial_spirit
   - tags in this jar are already forge:/minecraft: namespaced (no c:-> forge: remap)
 
-Usage: python tools/generate_emc.py [path/to/malum-1.20.1.jar]
+Usage: python tools/generate_emc.py path/to/malum-1.20.1.jar
 """
 
 import glob
@@ -27,19 +27,12 @@ import tempfile
 import zipfile
 from collections import OrderedDict
 
-JAR = (
-    sys.argv[1]
-    if len(sys.argv) > 1
-    else os.path.join(
-        os.path.dirname(__file__),
-        "..",
-        "..",
-        "..",
-        "_research",
-        "v1201-hosts",
-        "malum-1.20.1-1.6.7.jar",
-    )
-)
+USAGE = "Usage: python tools/generate_emc.py path/to/malum-1.20.1.jar"
+if len(sys.argv) != 2 or sys.argv[1] in ("-h", "--help"):
+    print(USAGE)
+    raise SystemExit(0 if len(sys.argv) == 2 else 1)
+
+JAR = sys.argv[1]
 OUT = os.path.join(
     os.path.dirname(__file__),
     "..",
